@@ -1,16 +1,14 @@
-# to_do
+# Flutter_Todo_App
 
-A new Flutter project.
+A simple Flutter Todo App with data persistence 
 
-## Getting Started
+## How to use these files
 
-This project is a starting point for a Flutter application.
+The attached ﬁles do NOT work as a standalone project. 
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+If you want to run the code follow these steps 
+1) Create a new Flutter project via ﬂutter create some_project 
+2) Replace the lib/ folder and the pubspec.yaml ﬁle with the attached ﬁles 
+3) Possibly add assets like images or fonts or adjust the AndroidManifest.xml / Info.plist ﬁle to add data/ permissions 
+4) ﬂutter packages get 
+5) ﬂutter run (with a running emulator or real device connected to your machine) to view the app
